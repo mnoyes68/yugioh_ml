@@ -1,2 +1,2 @@
-# ./downloadImages.sh
+./downloadImages.sh
 cd client && npm install
