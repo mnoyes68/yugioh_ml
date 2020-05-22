@@ -1,0 +1,7 @@
+*.pyc
+*.csv
+*.log
+*.json
+*.zip
+/client/node_modules/
+/client/src/assets/images/
