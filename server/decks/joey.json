@@ -1,0 +1,194 @@
+[
+    {
+        "name":"Red-Eyes B. Dragon",
+        "id":"SDJ-001",
+        "atk":2400,
+        "defn":2000,
+        "level":7,
+        "img":"images/joey/SDJ-001.jpg"
+    },
+    {
+        "name":"Swordsman of Landstar",
+        "id":"SDJ-002",
+        "atk":500,
+        "defn":1200,
+        "level":3,
+        "img":"images/joey/SDJ-002.jpg"
+    },
+    {
+        "name":"Baby Dragon",
+        "id":"SDJ-003",
+        "atk":1200,
+        "defn":700,
+        "level":3,
+        "img":"images/joey/SDJ-003.jpg"
+    },
+    {
+        "name":"Spirit of the Harp",
+        "id":"SDJ-004",
+        "atk":800,
+        "defn":2000,
+        "level":4,
+        "img":"images/joey/SDJ-004.jpg"
+    },
+    {
+        "name":"Island Turtle",
+        "id":"SDJ-005",
+        "atk":1100,
+        "defn":2000,
+        "level":4,
+        "img":"images/joey/SDJ-005.jpg"
+    },
+    {
+        "name":"Flame Manipulator",
+        "id":"SDJ-006",
+        "atk":900,
+        "defn":1000,
+        "level":3,
+        "img":"images/joey/SDJ-006.jpg"
+    },
+    {
+        "name":"Masaki the Legendary Swordsman",
+        "id":"SDJ-007",
+        "atk":1100,
+        "defn":1100,
+        "level":4,
+        "img":"images/joey/SDJ-007.jpg"
+    },
+    {
+        "name":"7 Colored Fish",
+        "id":"SDJ-008",
+        "atk":1800,
+        "defn":800,
+        "level":4,
+        "img":"images/joey/SDJ-008.jpg"
+    },
+    {
+        "name":"Armored Lizard",
+        "id":"SDJ-009",
+        "atk":1500,
+        "defn":1200,
+        "level":4,
+        "img":"images/joey/SDJ-009.jpg"
+    },
+    {
+        "name":"Darkfire Soldier #1",
+        "id":"SDJ-010",
+        "atk":1700,
+        "defn":1150,
+        "level":4,
+        "img":"images/joey/SDJ-010.jpg"
+    },
+    {
+        "name":"Sky Scout (F.K.A. Harpie's Brother)",
+        "id":"SDJ-011",
+        "atk":1800,
+        "defn":600,
+        "level":4,
+        "img":"images/joey/SDJ-011.jpg"
+    },
+    {
+        "name":"Gearfried the Iron Knight",
+        "id":"SDJ-012",
+        "atk":1800,
+        "defn":1600,
+        "level":4,
+        "img":"images/joey/SDJ-012.jpg"
+    },
+    {
+        "name":"Karate Man",
+        "id":"SDJ-013",
+        "atk":1000,
+        "defn":1000,
+        "level":3,
+        "img":"images/joey/SDJ-013.jpg"
+    },
+    {
+        "name":"Milus Radiant",
+        "id":"SDJ-014",
+        "atk":300,
+        "defn":250,
+        "level":1,
+        "img":"images/joey/SDJ-014.jpg"
+    },
+    {
+        "name":"Time Wizard",
+        "id":"SDJ-015",
+        "atk":500,
+        "defn":400,
+        "level":2,
+        "img":"images/joey/SDJ-015.jpg"
+    },
+    {
+        "name":"Maha Vailo",
+        "id":"SDJ-016",
+        "atk":1550,
+        "defn":1400,
+        "level":4,
+        "img":"images/joey/SDJ-016.jpg"
+    },
+    {
+        "name":"Magician of Faith",
+        "id":"SDJ-017",
+        "atk":300,
+        "defn":400,
+        "level":1,
+        "img":"images/joey/SDJ-017.jpg"
+    },
+    {
+        "name":"Big Eye",
+        "id":"SDJ-018",
+        "atk":1200,
+        "defn":1000,
+        "level":4,
+        "img":"images/joey/SDJ-018.jpg"
+    },
+    {
+        "name":"Sangan",
+        "id":"SDJ-019",
+        "atk":1000,
+        "defn":600,
+        "level":3,
+        "img":"images/joey/SDJ-019.jpg"
+    },
+    {
+        "name":"Princess of Tsurugi",
+        "id":"SDJ-020",
+        "atk":900,
+        "defn":700,
+        "level":3,
+        "img":"images/joey/SDJ-020.jpg"
+    },
+    {
+        "name":"White Magical Hat",
+        "id":"SDJ-021",
+        "atk":1000,
+        "defn":700,
+        "level":3,
+        "img":"images/joey/SDJ-021.jpg"
+    },
+    {
+        "name":"Penguin Soldier",
+        "id":"SDJ-022",
+        "atk":750,
+        "defn":500,
+        "level":2,
+        "img":"images/joey/SDJ-022.jpg"
+    },
+    {
+        "name":"Thousand Dragon",
+        "id":"SDJ-023",
+        "atk":2400,
+        "defn":2000,
+        "level":7,
+        "img":"images/joey/SDJ-023.jpg"
+    },
+    {
+        "name":"Flame Swordsman",
+        "id":"SDJ-024",
+        "atk":1800,
+        "defn":1600,
+        "level":5,
+        "img":"images/joey/SDJ-024.jpg"
+    }
+]

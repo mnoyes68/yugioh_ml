@@ -1,0 +1,210 @@
+[
+    {
+        "name":"Relinquished",
+        "id":"SDP-001",
+        "atk":0,
+        "defn":0,
+        "level":1,
+        "img":"images/pegasus/SDP-001.jpg"
+    },
+    {
+        "name":"Red Archery Girl",
+        "id":"SDP-002",
+        "atk":1400,
+        "defn":1500,
+        "level":4,
+        "img":"images/pegasus/SDP-002.jpg"
+    },
+    {
+        "name":"Ryu-Ran",
+        "id":"SDP-003",
+        "atk":2200,
+        "defn":2600,
+        "level":7,
+        "img":"images/pegasus/SDP-003.jpg"
+    },
+    {
+        "name":"Illusionist Faceless Mage",
+        "id":"SDP-004",
+        "atk":1200,
+        "defn":2200,
+        "level":5,
+        "img":"images/pegasus/SDP-004.jpg"
+    },
+    {
+        "name":"Rogue Doll",
+        "id":"SDP-005",
+        "atk":1600,
+        "defn":1000,
+        "level":4,
+        "img":"images/pegasus/SDP-005.jpg"
+    },
+    {
+        "name":"Uraby",
+        "id":"SDP-006",
+        "atk":1500,
+        "defn":800,
+        "level":4,
+        "img":"images/pegasus/SDP-006.jpg"
+    },
+    {
+        "name":"Giant Soldier of Stone",
+        "id":"SDP-007",
+        "atk":1300,
+        "defn":2000,
+        "level":3,
+        "img":"images/pegasus/SDP-007.jpg"
+    },
+    {
+        "name":"Aqua Madoor",
+        "id":"SDP-008",
+        "atk":1200,
+        "defn":2000,
+        "level":4,
+        "img":"images/pegasus/SDP-008.jpg"
+    },
+    {
+        "name":"Toon Alligator",
+        "id":"SDP-009",
+        "atk":800,
+        "defn":1600,
+        "level":4,
+        "img":"images/pegasus/SDP-009.jpg"
+    },
+    {
+        "name":"Hane-Hane",
+        "id":"SDP-010",
+        "atk":450,
+        "defn":500,
+        "level":2,
+        "img":"images/pegasus/SDP-010.jpg"
+    },
+    {
+        "name":"Sonic Bird",
+        "id":"SDP-011",
+        "atk":1400,
+        "defn":1000,
+        "level":4,
+        "img":"images/pegasus/SDP-011.jpg"
+    },
+    {
+        "name":"Jigen Bakudan",
+        "id":"SDP-012",
+        "atk":200,
+        "defn":1000,
+        "level":2,
+        "img":"images/pegasus/SDP-012.jpg"
+    },
+    {
+        "name":"Mask of Darkness",
+        "id":"SDP-013",
+        "atk":900,
+        "defn":400,
+        "level":2,
+        "img":"images/pegasus/SDP-013.jpg"
+    },
+    {
+        "name":"Witch of the Black Forest",
+        "id":"SDP-014",
+        "atk":1100,
+        "defn":1200,
+        "level":4,
+        "img":"images/pegasus/SDP-014.jpg"
+    },
+    {
+        "name":"Man-Eater Bug",
+        "id":"SDP-015",
+        "atk":450,
+        "defn":600,
+        "level":2,
+        "img":"images/pegasus/SDP-015.jpg"
+    },
+    {
+        "name":"Muka Muka",
+        "id":"SDP-016",
+        "atk":600,
+        "defn":300,
+        "level":2,
+        "img":"images/pegasus/SDP-016.jpg"
+    },
+    {
+        "name":"Dream Clown",
+        "id":"SDP-017",
+        "atk":1200,
+        "defn":900,
+        "level":3,
+        "img":"images/pegasus/SDP-017.jpg"
+    },
+    {
+        "name":"Armed Ninja",
+        "id":"SDP-018",
+        "atk":300,
+        "defn":300,
+        "level":1,
+        "img":"images/pegasus/SDP-018.jpg"
+    },
+    {
+        "name":"Hiro's Shadow Scout",
+        "id":"SDP-019",
+        "atk":650,
+        "defn":500,
+        "level":2,
+        "img":"images/pegasus/SDP-019.jpg"
+    },
+    {
+        "name":"Blue-Eyes Toon Dragon",
+        "id":"SDP-020",
+        "atk":3000,
+        "defn":2500,
+        "level":8,
+        "img":"images/pegasus/SDP-020.jpg"
+    },
+    {
+        "name":"Toon Summoned Skull",
+        "id":"SDP-021",
+        "atk":2500,
+        "defn":1200,
+        "level":6,
+        "img":"images/pegasus/SDP-021.jpg"
+    },
+    {
+        "name":"Manga Ryu-Ran",
+        "id":"SDP-022",
+        "atk":2200,
+        "defn":2600,
+        "level":7,
+        "img":"images/pegasus/SDP-022.jpg"
+    },
+    {
+        "name":"Toon Mermaid",
+        "id":"SDP-023",
+        "atk":1400,
+        "defn":1500,
+        "level":4,
+        "img":"images/pegasus/SDP-023.jpg"
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

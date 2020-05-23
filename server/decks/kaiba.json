@@ -1,0 +1,218 @@
+[
+    {
+        "name":"Blue-Eyes White Dragon",
+        "id":"SDK-001",
+        "atk":3000,
+        "defn":2500,
+        "level":8,
+        "img":"images/kaiba/SDK-001.jpg"
+    },
+    {
+        "name":"Hitotsu-Me Giant",
+        "id":"SDK-002",
+        "atk":1200,
+        "defn":1000,
+        "level":4,
+        "img":"images/kaiba/SDK-002.jpg"
+    },
+    {
+        "name":"Ryu-Kishin",
+        "id":"SDK-003",
+        "atk":1000,
+        "defn":500,
+        "level":3,
+        "img":"images/kaiba/SDK-003.jpg"
+    },
+    {
+        "name":"The Wicked Worm Beast",
+        "id":"SDK-004",
+        "atk":1400,
+        "defn":700,
+        "level":3,
+        "img":"images/kaiba/SDK-004.jpg"
+    },
+    {
+        "name":"Battle Ox",
+        "id":"SDK-005",
+        "atk":1700,
+        "defn":1000,
+        "level":4,
+        "img":"images/kaiba/SDK-005.jpg"
+    },
+    {
+        "name":"Koumori Dragon",
+        "id":"SDK-006",
+        "atk":1500,
+        "defn":1200,
+        "level":4,
+        "img":"images/kaiba/SDK-006.jpg"
+    },
+    {
+        "name":"Judge Man",
+        "id":"SDK-007",
+        "atk":2200,
+        "defn":1500,
+        "level":6,
+        "img":"images/kaiba/SDK-007.jpg"
+    },
+    {
+        "name":"Rogue Doll",
+        "id":"SDK-008",
+        "atk":1600,
+        "defn":1000,
+        "level":4,
+        "img":"images/kaiba/SDK-008.jpg"
+    },
+    {
+        "name":"Kojikocy",
+        "id":"SDK-009",
+        "atk":1500,
+        "defn":1200,
+        "level":4,
+        "img":"images/kaiba/SDK-009.jpg"
+    },
+    {
+        "name":"Uraby",
+        "id":"SDK-010",
+        "atk":1500,
+        "defn":800,
+        "level":4,
+        "img":"images/kaiba/SDK-010.jpg"
+    },
+    {
+        "name":"Gyakutenno Megami",
+        "id":"SDK-011",
+        "atk":1800,
+        "defn":2000,
+        "level":6,
+        "img":"images/kaiba/SDK-011.jpg"
+    },
+    {
+        "name":"Mystic Horseman",
+        "id":"SDK-012",
+        "atk":1300,
+        "defn":1550,
+        "level":4,
+        "img":"images/kaiba/SDK-012.jpg"
+    },
+    {
+        "name":"Terra the Terrible",
+        "id":"SDK-013",
+        "atk":1200,
+        "defn":1300,
+        "level":4,
+        "img":"images/kaiba/SDK-013.jpg"
+    },
+    {
+        "name":"Dark Titan of Terror",
+        "id":"SDK-014",
+        "atk":1300,
+        "defn":1100,
+        "level":4,
+        "img":"images/kaiba/SDK-014.jpg"
+    },
+    {
+        "name":"Dark Assailant",
+        "id":"SDK-015",
+        "atk":1200,
+        "defn":1200,
+        "level":4,
+        "img":"images/kaiba/SDK-015.jpg"
+    },
+    {
+        "name":"Master & Expert",
+        "id":"SDK-016",
+        "atk":1200,
+        "defn":1000,
+        "level":4,
+        "img":"images/kaiba/SDK-016.jpg"
+    },
+    {
+        "name":"Unknown Warrior of Fiend",
+        "id":"SDK-017",
+        "atk":1000,
+        "defn":500,
+        "level":3,
+        "img":"images/kaiba/SDK-017.jpg"
+    },
+    {
+        "name":"Mystic Clown",
+        "id":"SDK-018",
+        "atk":1500,
+        "defn":1000,
+        "level":4,
+        "img":"images/kaiba/SDK-018.jpg"
+    },
+    {
+        "name":"Ogre of the Black Shadow",
+        "id":"SDK-019",
+        "atk":1200,
+        "defn":1400,
+        "level":4,
+        "img":"images/kaiba/SDK-019.jpg"
+    },
+    {
+        "name":"Ryu-Kishin Powered",
+        "id":"SDK-024",
+        "atk":1600,
+        "defn":1200,
+        "level":4,
+        "img":"images/kaiba/SDK-024.jpg"
+    },
+    {
+        "name":"Swordstalker",
+        "id":"SDK-025",
+        "atk":2000,
+        "defn":1600,
+        "level":6,
+        "img":"images/kaiba/SDK-025.jpg"
+    },
+    {
+        "name":"La Jinn the Mystical Genie of the Lamp",
+        "id":"SDK-026",
+        "atk":1800,
+        "defn":1000,
+        "level":4,
+        "img":"images/kaiba/SDK-026.jpg"
+    },
+    {
+        "name":"Rude Kaiser",
+        "id":"SDK-027",
+        "atk":1800,
+        "defn":1600,
+        "level":5,
+        "img":"images/kaiba/SDK-027.jpg"
+    },
+    {
+        "name":"Destroyer Golem",
+        "id":"SDK-028",
+        "atk":1500,
+        "defn":1000,
+        "level":4,
+        "img":"images/kaiba/SDK-028.jpg"
+    },
+    {
+        "name":"Skull Red Bird",
+        "id":"SDK-029",
+        "atk":1550,
+        "defn":1200,
+        "level":4,
+        "img":"images/kaiba/SDK-029.jpg"
+    },
+    {
+        "name":"D. Human",
+        "id":"SDK-030",
+        "atk":1300,
+        "defn":1100,
+        "level":4,
+        "img":"images/kaiba/SDK-030.jpg"
+    },
+    {
+        "name":"Pale Beast",
+        "id":"SDK-031",
+        "atk":1500,
+        "defn":1200,
+        "level":4,
+        "img":"images/kaiba/SDK-031.jpg"
+    }
+]

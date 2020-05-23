@@ -1,7 +1,9 @@
 *.pyc
 *.csv
 *.log
-*.json
 *.zip
+.python-version
+/client/package-lock.json
 /client/node_modules/
 /client/src/assets/images/
+/server/venv/
