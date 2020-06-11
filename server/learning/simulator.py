@@ -127,13 +127,6 @@ class Simulator():
         # Score the game_state
         dfx = json_normalize([state])
         X = self.scaler.transform(dfx)
-
-        '''
-        # Needed for use with Flask
-        with self.graph.as_default():
-            with self.session.as_default():
-                score = self.model.predict(X)[0][0]
-        '''
         score = self.model.predict(X)[0][0]
 
         '''

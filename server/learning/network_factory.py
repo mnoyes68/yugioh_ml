@@ -1,4 +1,3 @@
-# from tensorflow import Graph, Session
 import tensorflow as tf
 
 from keras.models import Sequential, load_model
@@ -11,20 +10,7 @@ from keras.layers import BatchNormalization
 from keras.layers import Flatten
 from keras import regularizers
 
-#from sklearn.externals import joblib
 import joblib
-
-'''
-def initialize_multithread_newtork(weights):
-    thread_graph = Graph()
-    with thread_graph.as_default():
-        thread_session = Session()
-        with thread_session.as_default():
-            model = initialize_network(weights)
-            graph = tf.get_default_graph()
-
-    return model, graph, thread_session
-'''
 
 
 def initialize_network_structure():
@@ -45,10 +31,7 @@ def initialize_network_structure():
 
 def initialize_network(weights):
     model = initialize_network_structure()
-    model.load_weights(weights)
-
-    #graph = tf.get_default_graph()
-    
+    model.load_weights(weights)    
     return model
 
 

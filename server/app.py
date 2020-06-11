@@ -11,7 +11,6 @@ from yugioh.cards import Deck, MonsterCard, load_deck_from_file
 
 import tensorflow as tf
 
-# from learning.network_factory import initialize_multithread_newtork, create_scaler
 from learning.network_factory import initialize_network, create_scaler
 from learning.decisionmanager import DecisionManager
 
@@ -81,7 +80,6 @@ player_list = [
     {'name': 'Pegasus', 'deck': 'decks/pegasus.json', 'portrait': 'Pegasus.png'}
 ]
 
-# model, graph, thread_session = initialize_multithread_newtork('learning/models/model_network_ff.h5')
 # model = initialize_network('learning/models/model_network_ff.h5')
 # scaler = create_scaler('learning/models/training_scaler.pkl')
 model = initialize_network('learning/models/rollout_train_25.h5')
