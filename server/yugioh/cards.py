@@ -1,7 +1,7 @@
 import logging
 import random
 import copy
-import actions
+import yugioh.actions
 import json
 import string
 

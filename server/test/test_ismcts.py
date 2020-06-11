@@ -11,10 +11,9 @@ from learning.ISMCTS import Node, ISMCTS
 from yugioh.cards import load_deck_from_file
 from yugioh.player import ComputerPlayer
 from yugioh.game import Game, DrawPhase, MainPhase, BattlePhase, MainPhase2
-from yugioh.statedraw import write_game_state
 import yugioh.actions as actions
 
-import utils
+import test.utils as utils
 
 from pandas.io.json import json_normalize
 

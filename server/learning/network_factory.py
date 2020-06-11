@@ -1,4 +1,4 @@
-from tensorflow import Graph, Session
+# from tensorflow import Graph, Session
 import tensorflow as tf
 
 from keras.models import Sequential, load_model
@@ -11,9 +11,10 @@ from keras.layers import BatchNormalization
 from keras.layers import Flatten
 from keras import regularizers
 
-from sklearn.externals import joblib
+#from sklearn.externals import joblib
+import joblib
 
-
+'''
 def initialize_multithread_newtork(weights):
     thread_graph = Graph()
     with thread_graph.as_default():
@@ -23,9 +24,10 @@ def initialize_multithread_newtork(weights):
             graph = tf.get_default_graph()
 
     return model, graph, thread_session
+'''
 
 
-def initialize_network(weights):
+def initialize_network_structure():
     model = Sequential()
     
     # Feed Forward
@@ -37,6 +39,12 @@ def initialize_network(weights):
     model.compile(optimizer='rmsprop',
               loss='binary_crossentropy',
               metrics=['accuracy'])
+        
+    return model
+
+
+def initialize_network(weights):
+    model = initialize_network_structure()
     model.load_weights(weights)
 
     #graph = tf.get_default_graph()
@@ -47,3 +55,4 @@ def initialize_network(weights):
 def create_scaler(scaler_file):
     scaler = joblib.load(scaler_file) 
     return scaler
+

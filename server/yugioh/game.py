@@ -1,29 +1,15 @@
-import cards
-import player
+import yugioh.cards as cards
+import yugioh.player as player
 
-from actions import Advance, DrawCard, NormalSummon, Attack, DirectAttack, Chain, EmptyDeckDrawError, group_actions_by_name
-
-import math
-import json
-import numpy as np
-import pdb
-import tensorflow as tf
+from yugioh.actions import Advance, DrawCard, NormalSummon, Attack, DirectAttack, Chain, EmptyDeckDrawError, group_actions_by_name
 
 from pandas.io.json import json_normalize
 from timeit import default_timer as timer
-from sklearn import preprocessing
-
-from keras.models import Sequential
-from keras.layers import Activation
-from keras.layers import BatchNormalization
-from keras.layers import Dense
-from keras.layers import Flatten
-from keras import regularizers
 
 import copy
 import random
-import operator
 import logging
+import pdb
 
 from learning.statedraw import write_game_state
 
@@ -31,7 +17,7 @@ logging.basicConfig(filename='yugioh_game.log', level=logging.INFO, filemode='w'
 
 
 class Game():
-    def __init__(self, p1, p2, pre_shuffle=True, graph=None):
+    def __init__(self, p1, p2, pre_shuffle=True):
         self.p1 = p1
         self.p2 = p2
         self.turn_number = 1
@@ -41,7 +27,6 @@ class Game():
         self.ended_in_draw = False
         self.console = ["Console Initialized"]
         self.pre_shuffle = pre_shuffle
-        self.graph = graph
 
 
     def play_game(self):
@@ -69,8 +54,9 @@ class Game():
 
         turn_player = self.turn
 
-        while turn_player == self.turn:
-            self.play_phase()
+        game_continue = True
+        while turn_player == self.turn and game_continue:
+            game_continue = self.play_phase()
 
         if self.game_is_over:
             return False
@@ -86,6 +72,7 @@ class Game():
             phase_in_progress = self.play_step()
         if self.is_game_over():
             return False
+        return True
 
 
     def play_full_step(self, player_action=None, opponent_action=None):
@@ -180,6 +167,7 @@ class Game():
 
     def is_game_over(self):
         if self.p1.life_points <= 0 or self.p2.life_points <= 0:
+            # pdb.set_trace()
             self.game_is_over = True
             self.declare_winner()
         return self.game_is_over

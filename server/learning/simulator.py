@@ -28,12 +28,10 @@ class Simulator():
         # Reference Models and Graph
         p1_sim = game.p1.decisionmanager.simulator
         p2_sim = game.p2.decisionmanager.simulator
-        graph = game.graph
 
         # Remove Simulators and Graph
         game.p1.decisionmanager.simulator = None
         game.p2.decisionmanager.simulator = None
-        game.graph = None
 
         # Copy Game
         sim_game = copy.deepcopy(game)
@@ -45,8 +43,6 @@ class Simulator():
         # Return Simulators and Graph
         game.p1.decisionmanager.simulator = p1_sim
         game.p2.decisionmanager.simulator = p2_sim
-        game.graph = graph
-        #game.graph = tf.get_default_graph()
 
         return sim_game
 
@@ -132,10 +128,13 @@ class Simulator():
         dfx = json_normalize([state])
         X = self.scaler.transform(dfx)
 
+        '''
         # Needed for use with Flask
         with self.graph.as_default():
             with self.session.as_default():
                 score = self.model.predict(X)[0][0]
+        '''
+        score = self.model.predict(X)[0][0]
 
         '''
         print("Normalize Time: " + str(t1-t0))

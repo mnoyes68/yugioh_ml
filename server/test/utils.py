@@ -10,7 +10,8 @@ from yugioh.player import Player
 from yugioh.game import Game, DrawPhase, MainPhase, BattlePhase, MainPhase2
 import yugioh.actions as actions
 
-from learning.network_factory import initialize_multithread_newtork, create_scaler
+# from learning.network_factory import initialize_multithread_newtork, create_scaler
+from learning.network_factory import initialize_network, create_scaler
 from learning.decisionmanager import DecisionManager
 
 
@@ -27,17 +28,20 @@ def create_training_game(method='random', include_model=False):
     opp_deck.shuffle()
 
     if method == 'network' or include_model:
-        #model1 = initialize_network('learning/models/model_network_ff.h5')
-        #model2 = initialize_network('learning/models/model_network_ff.h5')
+        model1 = initialize_network('learning/models/model_network_ff.h5')
+        model2 = initialize_network('learning/models/model_network_ff.h5')
 
-        model1, graph1, thread_session1 = initialize_multithread_newtork('learning/models/model_network_ff.h5')
-        model2, graph2, thread_session2 = initialize_multithread_newtork('learning/models/model_network_ff.h5')
+        #model1, graph1, thread_session1 = initialize_multithread_newtork('learning/models/model_network_ff.h5')
+        #model2, graph2, thread_session2 = initialize_multithread_newtork('learning/models/model_network_ff.h5')
 
         scaler1 = create_scaler('learning/models/training_scaler.pkl')
         scaler2 = create_scaler('learning/models/training_scaler.pkl')
 
-        dm1 = DecisionManager(model1, scaler1, graph1, thread_session1, method='network')
-        dm2 = DecisionManager(model2, scaler2, graph2, thread_session2, method='network')
+        # dm1 = DecisionManager(model1, scaler1, graph1, thread_session1, method='network')
+        # dm2 = DecisionManager(model2, scaler2, graph2, thread_session2, method='network')
+
+        dm1 = DecisionManager(model1, scaler1, None, None, method='network')
+        dm2 = DecisionManager(model2, scaler2, None, None, method='network')
 
         yugi = Player("Yugi", yugi_deck, None, decisionmanager=dm1)
         opponent = Player("Opponent", opp_deck, None, decisionmanager=dm2)

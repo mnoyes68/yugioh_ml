@@ -7,7 +7,7 @@ import random
 
 import yugioh.actions as actions
 
-import utils
+import test.utils as utils
 
 from pandas.io.json import json_normalize
 

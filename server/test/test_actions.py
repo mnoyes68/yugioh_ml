@@ -10,7 +10,7 @@ from yugioh.game import Game
 
 import yugioh.actions as actions
 
-import utils
+import test.utils as utils
 
 
 def test_draw_card_equality():

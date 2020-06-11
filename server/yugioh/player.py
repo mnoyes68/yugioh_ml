@@ -1,4 +1,4 @@
-import cards
+import yugioh.cards as cards
 
 from learning.decisionmanager import DecisionManager
 
